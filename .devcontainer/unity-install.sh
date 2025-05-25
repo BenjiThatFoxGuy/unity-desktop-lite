@@ -22,5 +22,5 @@ UNITY_SETUP_TMP=/tmp/UnitySetup
 wget -O ${UNITY_SETUP_TMP} ${UNITY_SETUP_URL}
 chmod +x ${UNITY_SETUP_TMP}
 mkdir -p ${UNITY_INSTALL_DIR}
-yes | ${UNITY_SETUP_TMP} --unattended --install-location=${UNITY_INSTALL_DIR} --components=Unity,Android
+yes | ${UNITY_SETUP_TMP} --unattended --install-location=${UNITY_INSTALL_DIR} --components=Unity,Windows
 chmod -R a+rx ${UNITY_INSTALL_DIR}/Editor/Unity

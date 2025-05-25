@@ -1,7 +1,7 @@
 FROM mcr.microsoft.com/devcontainers/base:ubuntu
 
-ENV UNITY_VERSION="2022.3.11f1"
-ENV UNITY_DOWNLOAD_HASH="d00248457e15"
+ENV UNITY_VERSION="2022.3.22f1"
+ENV UNITY_DOWNLOAD_HASH="887be4894c44"
 ENV UNITY_INSTALL_DIR=/opt/unity
 
 ##################################################################
